@@ -100,7 +100,6 @@ for loan_id, borrower_id, loan_amount, tenure_months, disbursement_date, monthly
 
         cur.execute("""
             INSERT INTO repayments (loan_id, borrower_id, due_date, actual_payment_date,
-                                    amount_due, amount_paid, payment_status)
             VALUES (%s, %s, %s, %s, %s, %s, %s)
         """, (loan_id, borrower_id, due_date, actual_payment_date,
               monthly_repayment, round(amount_paid, 2), payment_status))
