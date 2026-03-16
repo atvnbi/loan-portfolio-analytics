@@ -1,0 +1,7 @@
+dpd_bucket,classification,number_of_loans,total_outstanding,percentage_of_portfolio,," 49,322,314.14 "
+Current,Performing,134," 163,410,778.09 ",67,63%,
+1-30 DPD,Watch,27," 46,660,689.06 ",13.5,18%,
+31-60 DPD,Substandard,16," 18,297,501.12 ",8,7%,
+61-90 DPD,Doubtful,14," 23,332,363.45 ",7,9%,
+90+ DPD,Loss,9," 7,692,449.57 ",4.5,3%,
+,,200," 259,393,781.29 ",,,

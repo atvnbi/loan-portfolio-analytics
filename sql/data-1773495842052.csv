@@ -1,0 +1,5 @@
+"loan_status","number_of_loans","total_loan_amount","average_loan_amount","portfolio_percentage"
+"Active","95","238424496.79","2509731.55","47.50"
+"Fully Paid","50","140484792.83","2809695.86","25.00"
+"Delinquent","46","122976071.41","2673392.86","23.00"
+"Written Off","9","22249324.22","2472147.14","4.50"
