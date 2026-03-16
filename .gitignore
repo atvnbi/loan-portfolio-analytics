@@ -1,13 +1,19 @@
+# Environment variables
+.env
+venv/
+
 # Python
 __pycache__/
 *.pyc
 *.pyo
-.env
-venv/
+
 
 # Credentials
 config.py
 secrets.py
+
+# Jupyter
+.ipynb_checkpoints/
 
 # Power BI
 *.pbix.bak
