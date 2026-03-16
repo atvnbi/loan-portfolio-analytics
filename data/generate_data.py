@@ -1,6 +1,7 @@
 import psycopg2
 import random
 from datetime import date, timedelta
+from faker import Faker
 from dotenv import load_dotenv
 import os
 
@@ -142,4 +143,4 @@ for loan_id, borrower_id, loan_amount, tenure_months, disbursement_date, monthly
 conn.commit()
 cur.close()
 conn.close()
-print("✅ All data inserted successfully!")
+print("All data inserted successfully!")
